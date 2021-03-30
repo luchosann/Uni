@@ -1,3 +1,4 @@
+// Este no anda xd
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,7 +19,7 @@ int mcd(int num1,int num2){
         return n;
     } else {
         n++;
-        mcd(num1)
+        mcd(num1,num2);
     }
     
 
